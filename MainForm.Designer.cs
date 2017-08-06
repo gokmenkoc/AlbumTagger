@@ -1,6 +1,6 @@
 ﻿namespace AlbumTagger
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1243, 787);
+            this.Name = "MainForm";
+            this.Text = "Album Tagger v0.1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
