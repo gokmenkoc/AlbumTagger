@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // Bir bütünleştirilmiş koda ilişkin Genel Bilgiler aşağıdaki öznitelikler kümesiyle
 // denetlenir. Bütünleştirilmiş kod ile ilişkili bilgileri değiştirmek için
 // bu öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("AlbumTagger")]
+[assembly: AssemblyTitle("Album Tag Manager")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AlbumTagger")]
+[assembly: AssemblyProduct("Album Tag Manager")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Gökmen Koç")]
 [assembly: AssemblyCulture("")]
 
 // ComVisible özniteliğinin false olarak ayarlanması bu bütünleştirilmiş koddaki türleri
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Tüm değerleri belirtebilir veya varsayılan Derleme ve Düzeltme Numaralarını kullanmak için
 // '*' kullanarak varsayılana ayarlayabilirsiniz:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.1.0.0")]
+[assembly: AssemblyFileVersion("0.1.0.0")]
