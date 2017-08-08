@@ -1,15 +1,27 @@
-﻿using System.Windows.Forms;
+﻿using AlbumTagger;
+using System;
+using System.Windows.Forms;
 
-namespace AlbumTagger
+namespace AlbumTagManager
 {
     public partial class MainForm : Form
     {
-        const string TAG_LABEL_PLACEHOLDER = "Add Tag: Home, Friends...";
-
         public MainForm()
         {
             InitializeComponent();
-            Utility.Utility.AddPlaceholderSupportToControl(txtAddTag, TAG_LABEL_PLACEHOLDER);
+        }
+
+        private void btnSelectSourceFolder_Click(object sender, EventArgs e)
+        {
+            AddTagForm frmAddTag = new AddTagForm();
+            frmAddTag.FormClosed += AddTagFormClosed;
+            frmAddTag.Show();
+
+        }
+
+        private void AddTagFormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }
